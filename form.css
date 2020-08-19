@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Montserrat:wght@200;400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body{
+	background: url('bg_1.png') no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+	color: #8c94ae;
+}
+
+.wrapper{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 900px;
+	background: #fff;
+	border-radius: 14px;
+}
+
+.wrapper .header{
+	background: #7b5be4;
+width:580px;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	position: relative;
+	top:5px;
+		border-radius:14px;
+	text-align:bottom;
+	height:10px;
+}
+
+.header .logo{
+	padding: 15px 30px;
+	position: relative;
+	top:5px;
+
+	
+}
+
+.header .logo p{
+	font-size: 24px;
+	font-weight: 600;
+	font-family: 'Merienda', cursive;
+	text-align: bottom;
+	position: relative;
+	left:33px;
+	top:10px;
+}
+
+
+
+
+
+
+.header .menu ul :hover,
+.header .menu ul .active{
+	background: #8575e7;
+}
+
+
+
+.main_container{
+	padding: 50px;
+}
+
+.title{
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	color: #0e1935;
+	margin-bottom: 20px;
+	position: relative;
+	top:65px;
+}
+
+.content p{
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.form_wrap{
+	width: 350px;
+	margin: 0 auto 30px;
+}
+
+.form_wrap:last-child{
+	margin-bottom: 0px;
+}
+
+.form_wrap label{
+	display: block;
+	color: #0e1935;
+	margin-bottom: 10px;
+	font-weight: 200;
+}
+
+.form_wrap .input_field{
+	position: relative;
+}
+
+.form_wrap .input{
+	border: 1px solid #8c94ae;
+	width: 100%;
+	outline: none;
+	border-radius: 3px;
+	padding: 10px;
+	padding-left: 45px;
+	font-size: 14px;
+	color: #7b5be4;
+}
+
+.form_wrap .input:focus{
+	border: 1px solid #7b5be4;
+}
+
+.form_wrap input[type="submit"]{
+	border: 0;
+	background: #7b5be4;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 3px;
+	outline: none;
+}
+
+.form_wrap input[type="submit"]:hover{
+	background: #8575e7;
+	position: relative;
+	top:70px;
+}
+
+.form_wrap .error_msg{
+	margin-top: 10px;
+	color: #ff8471;
+	font-size: 14px;
+}
+
+.form_wrap i{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	font-size: 16px;
+	color: #7b5be4;
+}
+
+.smiley{
+	width: 200px;
+	margin: 0 auto 20px;	
+	font-size: 200px;
+	text-align: center;
+	color: #0e1935;
+}
+p{
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+li{
+	position: relative;
+	top:40px;
+	right:15px;
+}
+#titl:hover{
+	color:#7b5be4;
+	font-size:20px;
+	
+}
+h1:hover{
+	color:#7b5be4;
+	font-size:20px;
+}
+
+.main_container{
+	position: absolute;
+	top:17%;
+	left:0%;
+}
+#titl{
+	position: relative;
+	top:20px;
+}
+#po a{
+	position: relative;
+	top:20px;
+}
